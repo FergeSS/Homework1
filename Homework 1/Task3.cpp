@@ -22,9 +22,9 @@ int task3() {
 	std::cout << "Input coordinate y: ";
 	std::cin >> y;
 
-	r_dot = sqrt(x * x + y * y);
+	r_dot = x * x + y * y;
 
-	if (r_dot > r && r_dot < R)
+	if (r_dot > r * r && r_dot < R * R)
 		std::cout << "The dot hit in the ring r-R";
 	else
 		std::cout << "The dot did not hit in the ring r-R";
