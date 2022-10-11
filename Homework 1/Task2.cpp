@@ -47,8 +47,8 @@ int task2() {
 					std::cout << "Solution1: " << (-b - sqrt(D)) / (2 * a) << std::endl;
 				}
 				else {
-					std::cout << "Solution1: " << -b/2 + sqrt(-D)/ (2 * a) << "i" << std::endl;
-					std::cout << "Solution1: " << -b/2 - sqrt(-D)/ (2 * a) << "i" << std::endl;
+					std::cout << "Solution1: " << (- b + sqrt(-D)) / (2 * a) << "i" << std::endl;
+					std::cout << "Solution1: " << (- b - sqrt(-D)) / (2 * a) << "i" << std::endl;
 				}
 			}
 		}
