@@ -13,7 +13,7 @@ int task3() {
         for (j = 1; j < i * 2; j++) {
             std::cout << "*";
         }
-        std::cout << std::endl;
+        std::cout << " " <<  std::endl;
     }
 
     return 0;
